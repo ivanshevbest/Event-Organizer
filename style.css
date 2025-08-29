@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background: linear-gradient(to bottom, #a1c4fd, #c2e59c);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header h1 {
+    text-align: center;
+    color: #3498db;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#calendar {
+    margin-bottom: 20px;
+}
+
+#calendarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#calendarHeader button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#calendarTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#calendarTable th,
+#calendarTable td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+#calendarTable td {
+    cursor: pointer;
+}
+
+#eventsList ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.event-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.delete-event {
+    float: right;
+    color: red;
+    cursor: pointer;
+}
